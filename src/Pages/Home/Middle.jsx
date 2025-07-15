@@ -9,7 +9,7 @@ export default function Middle() {
                     </p>
                 </div>
                 <div className="flex items-end ">
-                    <img src={Clock} alt="Clock" className=" object-cover ml-[500px] md:W-[500px] md:h-[550px] md:ml-[120px] " />
+                    <img src={Clock} alt="Clock" className="pr-[20px] " />
                 </div>
             </div>
         </>
