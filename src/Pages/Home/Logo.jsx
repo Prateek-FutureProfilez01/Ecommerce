@@ -7,7 +7,7 @@ import { PiX } from 'react-icons/pi';
 
 function Logo() {
     return (
-        <div className='mt-3 '>
+        <div className='pl-[20px] pr-[36px] mt-3'>
             <Swiper
                 // slidesPerView={5}
                 // spaceBetween={30}
@@ -29,10 +29,10 @@ function Logo() {
                     pagination={{
                     clickable: true,
                 }}
-            autoplay={{
-                delay: 1000,
-                disableOnInteraction: false, // Autoplay restarts after interaction
-            }}
+            // autoplay={{
+            //     delay: 1000,
+            //     disableOnInteraction: false, // Autoplay restarts after interaction
+            // }}
             navigation={true}
             loop={true}
             modules={[Autoplay, Pagination, Navigation]}

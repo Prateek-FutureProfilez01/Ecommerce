@@ -50,7 +50,7 @@ export const Footer = () => {
         </div>
 
       </div>
-      <div className="container">
+      <div className="">
         <div className="border-t-2 border-gray-500 py-4 px-4 text-left mt-5">
           <span className="text-sm text-white">
             © 2021 Qode Interactive, All Rights Reserved

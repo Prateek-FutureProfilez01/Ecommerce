@@ -8,7 +8,7 @@ export default function Card({ product }) {
                 <Link
                     key={item.id}
                     to={`#`}
-                    className="w-80 bg-white shadow-md border border-slate-200 rounded-xl overflow-hidden transition-transform hover:scale-105 hover:shadow-lg"
+                    className="w-80 overflow-hidden transition-transform hover:scale-105 hover:shadow-lg"
                 >
                     <div className="h-52 bg-gray-100 flex items-center justify-center p-4">
                         <img
@@ -18,9 +18,8 @@ export default function Card({ product }) {
                         />
                     </div>
 
-                    <div className="p-4 space-y-2">
+                    <div className="p-4 space-y-2 text-center ">
                         <h2 className="text-lg font-semibold text-slate-800 line-clamp-2">{item.title}</h2>
-                        <div className='flex  justify-between item-center'>
 
                             <p className="text-base text-slate-700">
                                 <strong>Price:</strong> ${item.price}
@@ -30,11 +29,9 @@ export default function Card({ product }) {
                                     <span key={index}>⭐</span>
                                 ))}
                             </p>
-
-                        </div>
-                        <button className='bg-gray-300 text-black rounded-md font-normal p-1'>
+                        {/* <button className='bg-gray-300 text-black rounded-md font-normal p-1'>
                             Add To Cart
-                        </button>
+                        </button> */}
                     </div>
                 </Link>
             ))}
