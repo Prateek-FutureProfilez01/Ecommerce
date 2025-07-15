@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Card({ product }) {
-    console.log("product", product);
     return (
         <div className="flex flex-wrap gap-6 justify-center py-6">
             {product?.map((item) => (

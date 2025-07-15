@@ -6,7 +6,7 @@ import Logo from './Logo'
 
 export default function Main() {
     return (
-        <div className='container'>
+        <div>
             <Middle />
             <Logo />
             <Product />
