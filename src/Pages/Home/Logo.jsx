@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import 'swiper/css';
-import { PiX } from 'react-icons/pi';
 
 
 function Logo() {
@@ -29,10 +28,10 @@ function Logo() {
                     pagination={{
                     clickable: true,
                 }}
-            // autoplay={{
-            //     delay: 1000,
-            //     disableOnInteraction: false, // Autoplay restarts after interaction
-            // }}
+            autoplay={{
+                delay: 1000,
+                disableOnInteraction: false, 
+            }}
             navigation={true}
             loop={true}
             modules={[Autoplay, Pagination, Navigation]}

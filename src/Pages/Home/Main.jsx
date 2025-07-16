@@ -6,10 +6,10 @@ import Logo from './Logo'
 
 export default function Main() {
     return (
-        <div>
+        <>
             <Middle />
             <Logo />
             <Product />
-        </div>
+        </>
     )
 }

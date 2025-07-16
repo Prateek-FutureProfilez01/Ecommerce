@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-[#000000] text-gray-100 pt-[95px] pb-[60px] px-[20px] ">
+    <div className="w-full bg-[#000000] text-gray-100 pt-[95px] pb-[20px] ">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 a-6 text-left">
 
         {/* Customer Service */}
