@@ -11,24 +11,26 @@ function Header() {
     return (<>
         <div className="  mx-auto flex max-w items-center justify-between p-6 lg:px-8 h-22 bg-gray-100 text-base md:text-lg lg:text-xl ">
             <div className="relative flex items-center justify-between">
-                <img src={"https://depot.qodeinteractive.com/wp-content/themes/depot/assets/img/logo.png"} alt="Logo" />
+                <Link to={'/'}><img src={"https://depot.qodeinteractive.com/wp-content/themes/depot/assets/img/logo.png"} alt="Logo" /></Link>
             </div>
             <div className=" text-black font-normal  hidden md:block">
                 <ul className="flex flex-wrap gap-3 ">
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/'}> Home </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/page'}> Page </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/shop'}> Shop </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/potfolio'}> Potfolio </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/blog'}> Blog </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/element'}> Element </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black">
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/chat'}> Chat </Link> </li>
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
+                        <Link to="/register" >Register </Link> </li>
                 </ul>
             </div>
 
@@ -95,6 +97,12 @@ function Header() {
                         <li>
                             <Link to="/chat" className="block text-left">
                                 Chat
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/register" className="block text-left">
+                                Register
                             </Link>
                         </li>
                     </ul>

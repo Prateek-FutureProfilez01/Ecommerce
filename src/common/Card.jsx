@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaStar } from "react-icons/fa6";
+// import { FaStar } from "react-icons/fa6";
 import RatingList from './RatingList';
 
 
 export default function Card({ product }) {
-    const starColor = "#ccc";
+    // const starColor = "#ccc";
     return (
         <div className="flex flex-wrap gap-6 justify-center py-6 px-6">
             {product?.map((item) => (
@@ -18,7 +18,7 @@ export default function Card({ product }) {
                         <img
                             src={item.image}
                             alt={item.title}
-                            className="h-full object-contain"
+                            className="h-full object-cover w-[260px]"
                         />
                     </div>
 

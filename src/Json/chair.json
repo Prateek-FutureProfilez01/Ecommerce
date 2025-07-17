@@ -1,0 +1,1614 @@
+{
+  "product": [
+    {
+      "id": "D1009",
+      "name": "Modern Tolik Chair",
+      "fullName": "Tolik Accent Chair",
+      "price": 199.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-3.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1010",
+      "name": "Modern Accent Chair",
+      "fullName": "Carver Accent Chair",
+      "price": 199.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-6.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1011",
+      "name": "Cherie Chair",
+      "fullName": "Cherie Lounge Chair",
+      "price": 199.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-8.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1012",
+      "name": "Modular sofa with wood",
+      "fullName": "Modular Wood Sofa",
+      "price": 399.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-2.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1013",
+      "name": "Ergonomic Cabinet",
+      "fullName": "Ergonomic Storage Cabinet",
+      "price": 149.25,
+      "originalPrice": 199.00,
+      "discount": 25,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-4.webp&w=3840&q=75",
+      "discount": 25,
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1014",
+      "name": "Wooden Table lamp",
+      "fullName": "Carved Wood Table Lamp",
+      "price": 149.25,
+      "originalPrice": 199.00,
+      "discount": 25,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-7.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1015",
+      "name": "Vintage Armchair",
+      "fullName": "Vintage Leather Armchair",
+      "price": 349.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-5.webp&w=3840&q=75",
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    },
+    {
+      "id": "D1008",
+      "name": "modern dark wood chair",
+      "fullName": "Baxter Colette Chair",
+      "price": 219.00,
+      "originalPrice": null,
+      "discount": null,
+      "image": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fhome-1%2Ffeatured-products%2Fimg-1.webp&w=1920&q=75",
+
+      "stockStatus": "In stock",
+      "rating": 5,
+      "reviewCount": 3,
+      "description": "The Tacoma Carver Dining Chair features a sleek, Its clean lines and refined silhouette make a standout pieceany room.",
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "#"
+        },
+        {
+          "name": "Shop",
+          "url": "#"
+        },
+        {
+          "name": "Furniture",
+          "url": "#"
+        },
+        {
+          "name": "Baxter Colette Chair",
+          "url": null
+        }
+      ],
+      "images": {
+        "main": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 580,
+            "height": 560
+          }
+        ],
+        "thumbnails": [
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-1.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-2.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-3.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-4.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          },
+          {
+            "url": "https://furnisy.vercel.app/_next/image?url=%2Fimages%2Fproduct-details%2Fimg-5.webp&w=3840&q=75",
+            "alt": "img",
+            "width": 130,
+            "height": 120
+          }
+        ]
+      },
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#E56F45",
+          "selected": true
+        },
+        {
+          "name": "Green",
+          "value": "#B4CBBB",
+          "selected": false
+        },
+        {
+          "name": "Brown",
+          "value": "#CDA477",
+          "selected": false
+        },
+        {
+          "name": "Beige",
+          "value": "#EADDC9",
+          "selected": false
+        },
+        {
+          "name": "Gray",
+          "value": "#E5E2E1",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "S",
+          "selected": false
+        },
+        {
+          "name": "M",
+          "selected": true
+        },
+        {
+          "name": "L",
+          "selected": false
+        }
+      ],
+      "quantity": 1,
+      "categories": [
+        "Furniture",
+        "Chair"
+      ],
+      "tags": [
+        "Chair",
+        "Table",
+        "Furniture",
+        "Decor"
+      ],
+      "actions": {
+        "addToCart": {
+          "text": "Add To Cart",
+          "url": "#"
+        },
+        "wishlist": {
+          "text": "Add to wishlist",
+          "url": "#"
+        },
+        "compare": {
+          "text": "Compare",
+          "url": "#"
+        },
+        "share": {
+          "social": [
+            {
+              "name": "facebook",
+              "url": "#",
+              "icon": "facebook-icon"
+            },
+            {
+              "name": "twitter",
+              "url": "#",
+              "icon": "twitter-icon"
+            },
+            {
+              "name": "linkedin",
+              "url": "#",
+              "icon": "linkedin-icon"
+            },
+            {
+              "name": "instagram",
+              "url": "#",
+              "icon": "instagram-icon"
+            }
+          ]
+        }
+      },
+      "navigation": {
+        "prev": {
+          "icon": "prev-arrow",
+          "action": "previous-image"
+        },
+        "next": {
+          "icon": "next-arrow",
+          "action": "next-image"
+        },
+        "zoom": {
+          "icon": "zoom-icon",
+          "action": "toggle-zoom"
+        }
+      }
+    }
+  ]
+}
