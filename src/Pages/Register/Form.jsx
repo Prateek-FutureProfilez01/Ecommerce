@@ -25,14 +25,15 @@ function Form() {
                 alert("Email field cannot be empty.");
                 return;
             }
+               if (!isValidEmail(input?.email)) {
+          alert("Please enter a valid email address.");
+          return;
+        }
             localStorage.setItem('formData', JSON.stringify(input));
             alert("Login Successfully")
         }
         
-        if (!isValidEmail(input?.email)) {
-          alert("Please enter a valid email address.");
-          return;
-        }
+     
     return (<>
         <div className="flex md:flex-row flex-col bg-white ">
             <div className="md:w-1/2 p-20  bg-[#fafafa] ">

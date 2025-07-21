@@ -25,14 +25,15 @@ const Login = () => {
             alert("Email field cannot be empty.");
             return;
         }
+        // if (!isValidEmail(email)) {
+        //     alert("Please enter a valid email address.");
+        //     return;
+        // }
         localStorage.setItem('formData', JSON.stringify(input));
         alert("Login Successfully")
     }
-    
-    if (!isValidEmail(email)) {
-      alert("Please enter a valid email address.");
-      return;
-    }
+
+
 
     return (<>
         <div className="flex md:flex-row flex-col bg-white ">
