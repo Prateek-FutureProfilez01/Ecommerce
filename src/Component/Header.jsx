@@ -9,7 +9,7 @@ function Header() {
         setMenuOpen(!menuOpen);
     };
     return (<>
-        <div className="  mx-auto flex max-w items-center justify-between p-6 lg:px-8 h-22 bg-gray-100 text-base md:text-lg lg:text-xl ">
+        <div className="  mx-auto flex max-w items-center justify-between p-6 lg:px-8 h-22 bg-gray-100 text-base md:text-lg lg:text-xl">
             <div className="relative flex items-center justify-between">
                 <Link to={'/'}><img src={"https://depot.qodeinteractive.com/wp-content/themes/depot/assets/img/logo.png"} alt="Logo" /></Link>
             </div>

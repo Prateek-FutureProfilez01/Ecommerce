@@ -3,25 +3,43 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { GrFacebookOption } from "react-icons/gr";
 import { FcGoogle } from "react-icons/fc";
-
+import toast from 'react-hot-toast';
 
 
 function Register() {
     const [input, setInputs] = useState({
         username: "",
-        age: "",
-        message: "",
-        backend: "node"
+        email: "",
+        password: ""
     })
     const handleChanges = (event) => {
         const { name, value } = event.target;
         setInputs(prev => ({ ...prev, [name]: value }));
     };
+    const isValidEmail = (email) => {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+    };
+
+
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        localStorage.setItem('formData', JSON.stringify(input));
-        alert(`My Name Is ${input.username} , and I am ${input.age} old.I work with ${input.backend}.`)
+        if (!input?.email || !input?.password || !input?.username) {
+            toast.error("please enter all fileds");
+            return;
+        }
+        if (!isValidEmail(input?.email)) {
+            toast.error("Please enter a valid email address.");
+            return;
+        }
+        let existing = JSON.parse(localStorage.getItem('formData')) || [];
+        existing?.push(input);
+        localStorage.setItem('formData', JSON.stringify(existing));
+        toast.success("Login Successfully");
     }
+    const recortd = localStorage && localStorage.getItem("formData");
+    console.log("recortd", recortd)
     return (
         <>
             <div className="flex md:flex-row flex-col bg-white ">
@@ -30,15 +48,21 @@ function Register() {
                     <form className=" mx-auto" onSubmit={handleSubmit}>
                         <div className="mb-5">
                             <label for="Name" className="mb-2 text-lg font-medium text-[#4d4c4b]">Name<spam className="gap-1 text-red-600">*</spam></label>
-                            <input type="text" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="Enter Your Name" required onChange={handleChanges} />
+                            <input type="text" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="Enter Your Name" required onChange={handleChanges}
+                                name='username'
+                                value={input?.username} />
                         </div>
                         <div className="mb-5">
                             <label for="email" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your email<spam className="gap-1 text-red-600">*</spam></label>
-                            <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="name@flowbite.com" required onChange={handleChanges} />
+                            <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="name@flowbite.com" required onChange={handleChanges}
+                                name='email'
+                                value={input?.email} />
                         </div>
                         <div className="mb-5">
                             <label for="password" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your password<spam className="gap-1 text-red-600">*</spam></label>
-                            <input type="password" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" required placeholder="Password" onChange={handleChanges} />
+                            <input type="password" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" required placeholder="Password" onChange={handleChanges}
+                                name='password'
+                                value={input?.password} />
                         </div>
                         <div className="flex items-start mb-5">
                             <div className="flex items-center h-5">
@@ -66,7 +90,7 @@ function Register() {
                             </div>
 
                         </div>
-                        <p className="flex justify-center text-xl p-4 text-gray-500">Already have an account? <Link to='/form'className="ml-1" >Login</Link> </p>
+                        <p className="flex justify-center text-xl p-4 text-gray-500">Already have an account? <Link to='/login' className="ml-1" >Login</Link> </p>
                     </form>
                 </div>
                 <div className="md:w-1/2">

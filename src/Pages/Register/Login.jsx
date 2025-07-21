@@ -1,10 +1,12 @@
 import React from 'react'
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { GrFacebookOption } from "react-icons/gr";
 import { FcGoogle } from "react-icons/fc";
+import toast from 'react-hot-toast';
 
 const Login = () => {
+    const navigate = useNavigate();
     const [input, setInputs] = useState({
         email: "",
         password: ""
@@ -21,18 +23,33 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!email.trim()) {
-            alert("Email field cannot be empty.");
+        if (!input?.email || !input?.password) {
+            toast.error("please enter all fileds");
             return;
         }
-        // if (!isValidEmail(email)) {
-        //     alert("Please enter a valid email address.");
-        //     return;
-        // }
-        localStorage.setItem('formData', JSON.stringify(input));
-        alert("Login Successfully")
-    }
+        if (!isValidEmail(input?.email)) {
+            toast.error("Please enter a valid email address.");
+            return;
+        }
+        let existing = JSON.parse(localStorage.getItem('formData')) || [];
+        localStorage.getItem('formData', JSON.stringify(existing));
 
+        existing.forEach(existing => {
+            if (existing?.email === input?.email && existing?.password === input?.password ) {
+                toast.success("Login Successfully");
+                localStorage && localStorage.setItem("isLogin" , "yes")
+                navigate("/shop")
+            }
+            else if(existing.length === 0){
+                toast.error("Please Registered First")
+            }
+            else {
+                toast.error("Enter correct detail")
+            }
+        });
+
+
+    }
 
 
     return (<>
@@ -42,12 +59,18 @@ const Login = () => {
                 <form className=" mx-auto" onSubmit={handleSubmit}>
                     <div className="mb-5">
                         <label for="email" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your email<spam className="gap-1 text-red-600">*</spam></label>
-                        <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="name@flowbite.com" required onChange={handleChanges} />
+                        <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="name@flowbite.com" required
+                            name='email'
+                            value={input?.email}
+                            onChange={handleChanges} />
+
                     </div>
-                    {!isValid && <p>Please enter a valid email address.</p>}
                     <div className="mb-5">
                         <label for="password" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your password<spam className="gap-1 text-red-600">*</spam></label>
-                        <input type="password" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" required placeholder="Password" onChange={handleChanges} />
+                        <input type="password" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" required placeholder="Password" onChange={handleChanges}
+                            name='password'
+                            value={input?.password}
+                        />
                     </div>
                     <div className="flex justify-between  mb-5">
                         <div className="flex items-center h-5">
@@ -55,7 +78,6 @@ const Login = () => {
 
                             <label for="remember" className="ms-2 text-lg text-gray-500 dark:text-gray-300 font-sans font-medium">Remember Me </label>
                         </div>
-
                         <Link to='#' className="text-lg hover:underline">Lost Your Password?</Link>
 
 

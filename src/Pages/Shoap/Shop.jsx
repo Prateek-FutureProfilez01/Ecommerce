@@ -4,22 +4,23 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import HorizontalCard from "../../common/HorizontalCard";
 import { useState } from 'react';
 import Card from '../../common/Card';
+import PrivateRoute from '../privateRoutre';
 
 
 function Shop() {
 
     const [key, setKey] = useState("card");
-    return (<>
+    return (<PrivateRoute>
         <div className="flex justify-between  flex-wrap md:items-center md:px-12 px-8 py-8  md:py-4 ">
             <div>
-                <div className="relative">
+                {/* <div className="relative">
                     <div className="absolute inset-y-0 end-2 flex items-center ps-3 ">
                         <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                         </svg>
                     </div>
                     <input type="search" id="default-search" className="block py-2 ps-4 w-[280px] text-md text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 " placeholder="Search" required />
-                </div>
+                </div> */}
             </div>
             <div className="flex md:justify-end md:items-end md:flex-wrap justify-center items-center text-center gap-4 mt-3 md:mr-8">
 
@@ -50,7 +51,7 @@ function Shop() {
         ) : (
             <HorizontalCard data={Chair} className="border-5" />
         )}
-    </>);
+    </PrivateRoute>);
 }
 
 export default Shop;
