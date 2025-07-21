@@ -17,18 +17,18 @@ function Header() {
                 <ul className="flex flex-wrap gap-3 ">
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/'}> Home </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/page'}> Page </Link> </li>
+                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
+                        <Link to={'/page'}> Page </Link> </li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/shop'}> Shop </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
+                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/potfolio'}> Potfolio </Link> </li>
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/blog'}> Blog </Link> </li>
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/element'}> Element </Link> </li>
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/chat'}> Chat </Link> </li>
+                        <Link to={'/chat'}> Chat </Link> </li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to="/register" >Register </Link> </li>
                 </ul>
@@ -69,17 +69,17 @@ function Header() {
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/page" className="block text-left">
                                 Page
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link to="/shop" className="block text-left">
                                 Shop
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/potfolio" className="block text-left">
                                 Portfolio
                             </Link>
@@ -98,7 +98,7 @@ function Header() {
                             <Link to="/chat" className="block text-left">
                                 Chat
                             </Link>
-                        </li>
+                        </li> */}
 
                         <li>
                             <Link to="/register" className="block text-left">
