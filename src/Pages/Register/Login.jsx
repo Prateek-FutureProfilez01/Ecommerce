@@ -1,38 +1,39 @@
+import React from 'react'
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { GrFacebookOption } from "react-icons/gr";
 import { FcGoogle } from "react-icons/fc";
 
-
-function Form() {
+const Login = () => {
     const [input, setInputs] = useState({
-            email: "",
-            password: ""
-        })
-        const handleChanges = (event) => {
-            const { name, value } = event.target;
-            setInputs(prev => ({ ...prev, [name]: value }));
-        };
-    
-        const isValidEmail = (email) => {
-            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return regex.test(email);
-        };
-    
-        const handleSubmit = (e) => {
-            e.preventDefault();
-            if (!input?.email.trim()) {
-                alert("Email field cannot be empty.");
-                return;
-            }
-            localStorage.setItem('formData', JSON.stringify(input));
-            alert("Login Successfully")
+        email: "",
+        password: ""
+    })
+    const handleChanges = (event) => {
+        const { name, value } = event.target;
+        setInputs(prev => ({ ...prev, [name]: value }));
+    };
+
+    const isValidEmail = (email) => {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (!email.trim()) {
+            alert("Email field cannot be empty.");
+            return;
         }
-        
-        if (!isValidEmail(input?.email)) {
-          alert("Please enter a valid email address.");
-          return;
-        }
+        localStorage.setItem('formData', JSON.stringify(input));
+        alert("Login Successfully")
+    }
+    
+    if (!isValidEmail(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
     return (<>
         <div className="flex md:flex-row flex-col bg-white ">
             <div className="md:w-1/2 p-20  bg-[#fafafa] ">
@@ -41,8 +42,8 @@ function Form() {
                     <div className="mb-5">
                         <label for="email" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your email<spam className="gap-1 text-red-600">*</spam></label>
                         <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="name@flowbite.com" required onChange={handleChanges} />
-                        
                     </div>
+                    {!isValid && <p>Please enter a valid email address.</p>}
                     <div className="mb-5">
                         <label for="password" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your password<spam className="gap-1 text-red-600">*</spam></label>
                         <input type="password" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" required placeholder="Password" onChange={handleChanges} />
@@ -91,4 +92,4 @@ function Form() {
     )
 }
 
-export default Form;
+export default Login

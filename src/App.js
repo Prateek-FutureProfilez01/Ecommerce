@@ -9,9 +9,11 @@ import Header from './Component/Header';
 import Main from './Pages/Home/Main';
 import Register from './Pages/Register/Register';
 import Form from './Pages/Register/Form';
-import Shop from './Pages/Shoap/Shop'
 import MainCard from './common/MainCard';
-import Page from './Pages/Page';
+import Page from './Pages/Page'
+import Shop from './Pages/Shoap/Shop';
+
+
 function App() {
   return (
     <BrowserRouter>

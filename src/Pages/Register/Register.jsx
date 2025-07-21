@@ -30,7 +30,7 @@ function Register() {
                     <form className=" mx-auto" onSubmit={handleSubmit}>
                         <div className="mb-5">
                             <label for="Name" className="mb-2 text-lg font-medium text-[#4d4c4b]">Name<spam className="gap-1 text-red-600">*</spam></label>
-                            <input type="email" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="Enter Your Name" required onChange={handleChanges} />
+                            <input type="text" className="flex w-full rounded-md bg-transparent text-base py-3 px-5 border-[#9ca3af] border-[1.5px] placeholder:text-[#9ca3af] text-gray-1-foreground mt-2.5" placeholder="Enter Your Name" required onChange={handleChanges} />
                         </div>
                         <div className="mb-5">
                             <label for="email" className="mb-2 text-lg font-medium text-[#4d4c4b]">Your email<spam className="gap-1 text-red-600">*</spam></label>
