@@ -1,10 +1,10 @@
 import Chair from '../../Json/chair.json'
-import { PiArrowsOutCardinalLight } from "react-icons/pi";
-import { HiOutlineBars3 } from "react-icons/hi2";
 import HorizontalCard from "../../common/HorizontalCard";
 import { useState } from 'react';
 import Card from '../../common/Card';
 import PrivateRoute from '../privateRoutre';
+import { BsGridFill, BsList } from 'react-icons/bs';
+
 
 
 function Shop() {
@@ -25,10 +25,10 @@ function Shop() {
             <div className="flex md:justify-end md:items-end md:flex-wrap justify-center items-center text-center gap-4 mt-3 md:mr-8">
 
                 <div className='cursor-pointer' onClick={() => { setKey("card") }}>
-                    <PiArrowsOutCardinalLight size={36} />
+                    <BsGridFill size={36} />
                 </div>
                 <div className='cursor-pointer' onClick={() => { setKey("HorizontalCard") }}>
-                    <HiOutlineBars3 size={36} />
+                    <BsList size={36} />
                 </div>
                 <div className="relative">
                     <select id="filter-select" class="block appearance-none w-fulltext-md text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 px-4 py-2 pr-8 shadow leading-tight focus:outline-none focus:shadow-outline ">

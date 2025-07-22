@@ -15,33 +15,30 @@ import Login from './Pages/Register/Login';
 import { Toaster } from 'react-hot-toast';
 import { PageNotFound } from './Pages/PageNotFound';
 
+import UserContextProvider from './context/UserContextProvider';
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Toaster
-        position="top-right"
-        reverseOrder={false}
-      />
-      <Header />
-      <Routes>
-        <Route path='/register' element={<Register />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/' element={<Main />} />
+    <UserContextProvider>
+      <BrowserRouter>
+        <Toaster
+          position="top-right"
+          reverseOrder={false}
+        />
+        <Header />
+        <Routes>
+          <Route path='/register' element={<Register />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/' element={<Main />} />
+          <Route path='/shop' element={<Shop />} />
+          <Route path='/mainCard/:Id' element={<MainCard />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </UserContextProvider>
 
-        <Route path='/shop' element={<Shop />} />
-        <Route path='/mainCard/:Id' element={<MainCard />} />
-        <Route path='*' element={<PageNotFound />} />
-
-        {/* <Route path='/page' element={<Page />} />
-        <Route path='/potfolio' element={<Potfolio />} />
-        <Route path='/blog' element={<Blog />} />
-        <Route path='/element' element={<Element />} />
-        <Route path='/chat' element={<Chat />} /> */}
-      </Routes>
-      <Footer />
-
-    </BrowserRouter>
   );
 }
 

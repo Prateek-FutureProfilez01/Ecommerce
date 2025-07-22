@@ -1,13 +1,17 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";
+import { UserContext } from "../context/UserContextProvider";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    const { list } = useContext(UserContext);
+
+    console.log("listaa", list); // ✅ Should now show [] or items
     return (<>
         <div className="  mx-auto flex max-w items-center justify-between p-6 lg:px-8 h-22 bg-gray-100 text-base md:text-lg lg:text-xl">
             <div className="relative flex items-center justify-between">
@@ -31,10 +35,11 @@ function Header() {
                         <Link to={'/chat'}> Chat </Link> </li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to="/register" >Register </Link> </li>
+                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
+                        <Link to="/checkout">{list?.length}</Link></li>
                 </ul>
+                {/* <div className="navbar-text">Cart Items: {cartItems.length}</div> */}
             </div>
-
-
             <div className={`flex lg:hidden ${menuOpen ? "hidden" : ""}`}>
                 <button
                     type="button"
@@ -93,12 +98,12 @@ function Header() {
                             <Link to="/element" className="block text-left">
                                 Element
                             </Link>
-                        </li>
+                        </li>*/}
                         <li>
                             <Link to="/chat" className="block text-left">
-                                Chat
+                                {list?.length}
                             </Link>
-                        </li> */}
+                        </li>
 
                         <li>
                             <Link to="/register" className="block text-left">
