@@ -1,0 +1,25 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.Bebas-font {
+    font-family: 'Catamaran', sans-serif;
+
+    color: #333;
+    /* Optional: darker color for headings */
+}
+
+.cartman-font {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    font-family: Catamaran, sans-serif;
+    overflow-x: hidden !important;
+    -webkit-font-smoothing: antialiased;
+}
