@@ -16,6 +16,7 @@ import { Toaster } from 'react-hot-toast';
 import { PageNotFound } from './Pages/PageNotFound';
 
 import UserContextProvider from './context/UserContextProvider';
+import Cart from './Pages/Cart';
 
 
 function App() {
@@ -32,13 +33,13 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/' element={<Main />} />
           <Route path='/shop' element={<Shop />} />
+          <Route path='/cart' element={<Cart />} />
           <Route path='/mainCard/:Id' element={<MainCard />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
     </UserContextProvider>
-
   );
 }
 

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoCloseSharp } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";
 import { UserContext } from "../context/UserContextProvider";
+import { BsCartFill } from "react-icons/bs";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ function Header() {
     };
     const { list } = useContext(UserContext);
 
-    console.log("listaa", list); // ✅ Should now show [] or items
+    console.log("list", list); // ✅ Should now show [] or items
     return (<>
         <div className="  mx-auto flex max-w items-center justify-between p-6 lg:px-8 h-22 bg-gray-100 text-base md:text-lg lg:text-xl">
             <div className="relative flex items-center justify-between">
@@ -21,24 +22,15 @@ function Header() {
                 <ul className="flex flex-wrap gap-3 ">
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/'}> Home </Link> </li>
-                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/page'}> Page </Link> </li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/shop'}> Shop </Link> </li>
-                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/potfolio'}> Potfolio </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/blog'}> Blog </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/element'}> Element </Link> </li>
-                    <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to={'/chat'}> Chat </Link> </li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to="/register" >Register </Link> </li>
+                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
+                        <Link to="/checkout">{list?.length}</Link></li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to="/checkout">{list?.length}</Link></li>
+                        <Link to={'/cart'}> 🛒 <sup>{list?.length}</sup></Link> </li>
                 </ul>
-                {/* <div className="navbar-text">Cart Items: {cartItems.length}</div> */}
             </div>
             <div className={`flex lg:hidden ${menuOpen ? "hidden" : ""}`}>
                 <button
@@ -66,50 +58,13 @@ function Header() {
                 {/* Mobile Menu */}
                 <div
                     id="mobile-menu "
-                    className="absolute top-0 right-[15px] 11h-full pt-[60px] "
-                >
+                    className="absolute top-0 right-[15px] 11h-full pt-[60px]">
                     <ul className="relative bg-[#222]  w-[200px] z-[9] h-full flex flex-col gap-[15px] font-manrope font-[600] text-[15px] md:text-[18px] lg:text-[20px] text-white px-[20px] pt-[20px] pb-[30px] rounded-[5px] ">
-                        <li>
-                            <Link to="/" className="block text-left">
-                                Home
-                            </Link>
-                        </li>
-                        {/* <li>
-                            <Link to="/page" className="block text-left">
-                                Page
-                            </Link>
-                        </li> */}
-                        <li>
-                            <Link to="/shop" className="block text-left">
-                                Shop
-                            </Link>
-                        </li>
-                        {/* <li>
-                            <Link to="/potfolio" className="block text-left">
-                                Portfolio
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/blog" className="block text-left">
-                                Blog
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/element" className="block text-left">
-                                Element
-                            </Link>
-                        </li>*/}
-                        <li>
-                            <Link to="/chat" className="block text-left">
-                                {list?.length}
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="/register" className="block text-left">
-                                Register
-                            </Link>
-                        </li>
+                        <li><Link to="/" className="block text-left">Home</Link></li>
+                        <li><Link to="/shop" className="block text-left">Shop</Link></li>
+                        {/* <li><Link to="/chat" className="block text-left">{list?.length}</Link></li> */}
+                        <li><Link to="/register" className="block text-left">Register</Link></li>
+                        <li><Link to="/cart" className="block text-left"><BsCartFill /></Link></li>
                     </ul>
                 </div>
             </div>
