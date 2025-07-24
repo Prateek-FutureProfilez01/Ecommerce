@@ -11,13 +11,14 @@ import toast from 'react-hot-toast';
 export default function MainCard() {
   const { Id } = useParams();
   const product = Chair.find((p) => p.id === Id);
-  const [quantity, setQuantity] = useState(1);
-  const { setList } = useContext(UserContext);
-
+  // const [quantity, setQuantity] = useState(1);
+  const { setList, list } = useContext(UserContext);
+  console.log("list", list)
 
   const [selectedSize, setSelectedSize] = useState(null);
   const sizes = ["S", "M", "L"];
 
+// handleIncrease and Decrease Value
 
   // const handleDecrement = () => {
   //   setQuantity(prevQuantity => (prevQuantity > 1 ? prevQuantity - 1 : 1));
@@ -27,33 +28,77 @@ export default function MainCard() {
   //   setQuantity(prevQuantity => prevQuantity + 1);
   // };
 
+
+
+// Incorect Code
+  // const handleAddToCart = (product) => {
+  //   console.log("🛒 handleAddToCart called with:", product);
+
+  //   setList(prevList => {
+  //     console.log("📦 Previous cart list:", prevList);
+
+  //     // Check if the same item with the same size already exists
+  //     const existingItemIndex = prevList.findIndex(
+  //       item => item.id === product.id
+  //     );
+  //     console.log("🔍 Existing item index:", existingItemIndex);
+
+  //     if (existingItemIndex !== -1) {
+  //       // Increase quantity of the existing item
+  //       const updatedList = [...prevList];
+  //       updatedList[existingItemIndex].quantity += 1;
+
+  //       console.log("✅ Item already in cart. Updated list:", updatedList);
+  //       toast.success("Quantity updated in cart");
+  //       return updatedList;
+  //     } else {
+  //       // Add new item with selected size and quantity
+  //       const newItem = {
+  //         ...product,
+  //         quantity: quantity,
+  //       };
+
+  //       console.log("🆕 New item added to cart:", newItem);
+  //       toast.success("Item added to cart");
+  //       return [...prevList, newItem];
+  //     }
+  //   })
+
+  //   // Reset quantity
+  //   // console.log("🔁 Resetting local quantity to 1");
+  //   // setQuantity(1);
+  // };
+
+
+
+
   const handleAddToCart = (product) => {
-  setList(prevList => {
-    // Check if the same item with the same size already exists
-    const existingItemIndex = prevList.findIndex(
-      item => item.id === product.id 
-    );
+    console.log("🛒 handleAddToCart called with:", product);
+
+    const existingItemIndex = list.findIndex(item => item.id === product.id);
+    console.log("🔍 Existing item index:", existingItemIndex);
 
     if (existingItemIndex !== -1) {
-      // Increase quantity of the existing item
-      const updatedList = [...prevList];
-      updatedList[existingItemIndex].quantity += quantity;
-      // toast.success("Quantity updated in cart");
-      return updatedList;
+      // Item exists in cart — update quantity
+      const updatedList = [...list];
+      updatedList[existingItemIndex].quantity += 1;
+      setList(updatedList);
+      console.log("✅ Quantity increased:", updatedList);
+      toast.success("Quantity updated in cart");
     } else {
-      // Add new item with selected size and quantity
+      // Item not in cart — add new
       const newItem = {
         ...product,
-        quantity: quantity,
+        quantity: 1
       };
+      const updatedList = [...list, newItem];
+      setList(updatedList);
+      console.log("🆕 New item added:", newItem);
       toast.success("Item added to cart");
-      return [...prevList, newItem];
     }
-  });
 
-  // Optional: reset quantity and size after adding
-  setQuantity(1);
-};
+  };
+
 
   return (
 
@@ -106,13 +151,13 @@ export default function MainCard() {
             ))}
           </div>
           {/* <div className='flex flex-wrap gap-3 mt-10 h-12 w-28 p-1'> */}
-            {/* <div className='border-[1.5px] border-[#000] text-secondary-foreground flex items-center gap-2.5 px-3 py-2.5 rounded-sm '>
+          {/* <div className='border-[1.5px] border-black text-secondary-foreground flex items-center gap-2.5 px-3 py-2.5 rounded-sm '>
               <button className='cursor-pointer h-4 w-5 inline-flex items-center justify-center' onClick={handleDecrement}><RiSubtractFill className='font-semibold' /></button>
               <spam className='outline-none max-w-5 font-bold text-center text-sm'>{quantity}</spam>
               <button className='cursor-pointer h-4 w-5 inline-flex items-center justify-center' onClick={handleIncrement}><MdAdd className='font-semibold' /></button>
               </div> */}
-              {/* </div> */}
-            <button className='bg-black text-white hover:bg-white hover:text-black rounded-md font-normal h-12 w-28 p-1 my-3 hover:border-2 hover:border-black' onClick={() => handleAddToCart(product)} >Add To Cart</button>
+          {/* </div> */}
+          <button className='bg-black text-white hover:bg-white hover:text-black rounded-md font-normal h-12 w-28 p-1 my-3 hover:border-2 hover:border-black' onClick={() => handleAddToCart(product)} >Add To Cart</button>
 
         </div>
       </div>

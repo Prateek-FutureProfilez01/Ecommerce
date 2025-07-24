@@ -14,9 +14,10 @@ import Shop from './Pages/Shoap/Shop';
 import Login from './Pages/Register/Login';
 import { Toaster } from 'react-hot-toast';
 import { PageNotFound } from './Pages/PageNotFound';
-
 import UserContextProvider from './context/UserContextProvider';
 import Cart from './Pages/Cart';
+import Checkout from './Pages/Checkout';
+import SuccessMessage from './Pages/SuccessMessage';
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/success' element={<SuccessMessage />} />
+          <Route path='/checkout' element={<Checkout />} />
           <Route path='/mainCard/:Id' element={<MainCard />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
