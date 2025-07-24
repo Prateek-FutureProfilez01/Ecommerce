@@ -47,7 +47,10 @@ const Login = () => {
                 toast.error("Enter correct detail")
             }
         });
+
+
     }
+
 
     return (<>
         <div className="flex md:flex-row flex-col bg-white ">

@@ -21,8 +21,6 @@ function Register() {
         return regex.test(email);
     };
 
-
-
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!input?.email || !input?.password || !input?.username) {

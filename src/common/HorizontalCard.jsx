@@ -28,25 +28,25 @@ function HorizontalCard({ data }) {
                             <p className="text-3xl font-bold text-slate-700 m-4 ">
                                 ${item.price} USD
                             </p>
-                            <div className="flex justify-start items-center gap-3">
-                                <button className='bg-black text-white rounded-lg font-normal px-4 py-2 m-4 hover:bg-white hover:text-black border-2 border-white hover:border-black'>
-                                    Add To Cart
-                                </button>
-                                <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg">
-                                    <IoEyeOutline size={22} />
+
+                            <div className="flex flex-wrap items-center gap-3">
+                                <div className="w-full md:w-40">
+                                    <button className='bg-black text-white rounded-lg font-normal px-4 py-2 m-4 hover:bg-white hover:text-black border-2 border-white hover:border-black'>
+                                        Add To Cart
+                                    </button> </div>
+
+                                <div className="flex gap-3">
+                                    <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg">
+                                        <IoEyeOutline size={22} /></div>
+                                    <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg ">
+                                        <IoHeartOutline size={22} /></div>
+                                    <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg ">
+                                        <MdCompareArrows size={22} /></div>
                                 </div>
-                                <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg ">
-                                    <IoHeartOutline size={22} />
-                                </div>
-                                <div className="border-2  border-black p-2  hover:bg-gray-900 hover:text-gray-100 rounded-lg ">
-                                    <MdCompareArrows size={22} />
-                                </div>
+
                             </div>
-
-
                         </div>
                     </div>
-
                 </Link>
             ))
             }
