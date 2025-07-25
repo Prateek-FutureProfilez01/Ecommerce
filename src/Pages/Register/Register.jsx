@@ -40,7 +40,7 @@ function Register() {
     console.log("recortd", recortd)
     return (
         <>
-            <div className="flex md:flex-row flex-col bg-white ">
+            <div className="flex md:flex-row flex-col bg-white justify-center ">
                 <div className="md:w-1/2 p-20  bg-[#fafafa] ">
                     <h2 className="lg:text-2xl text-xl font-semibold text-gray-1-foreground block lg:mb-7.5 mb-5 Bebas-font text-left">Create your Account</h2>
                     <form className=" mx-auto" onSubmit={handleSubmit}>

@@ -8,7 +8,7 @@ export default function Card({ product }) {
     console.log("product" ,product)
     // const starColor = "#ccc";
     return (
-        <div className="flex flex-wrap gap-6 justify-center py-8">
+        <div className="flex flex-wrap flex-row gap-6 justify-center py-8">
             {product?.map((item) => (
                 <Link
                     key={item.id}

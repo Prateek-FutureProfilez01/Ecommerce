@@ -26,8 +26,6 @@ function Header() {
                         <Link to={'/shop'}> Shop </Link> </li>
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to="/register" >Register </Link> </li>
-                    {/* <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
-                        <Link to="/checkout">{list?.length}</Link></li> */}
                     <li className="rounded-md  px-3 py-2 text-sm font-medium text-black uppercase">
                         <Link to={'/cart'}> 🛒 <sup>{list?.length}</sup></Link> </li>
                 </ul>
@@ -62,7 +60,6 @@ function Header() {
                     <ul className="relative bg-[#222]  w-[200px] z-[9] h-full flex flex-col gap-[15px] font-manrope font-[600] text-[15px] md:text-[18px] lg:text-[20px] text-white px-[20px] pt-[20px] pb-[30px] rounded-[5px] ">
                         <li><Link to="/" className="block text-left">Home</Link></li>
                         <li><Link to="/shop" className="block text-left">Shop</Link></li>
-                        {/* <li><Link to="/chat" className="block text-left">{list?.length}</Link></li> */}
                         <li><Link to="/register" className="block text-left">Register</Link></li>
                         <li><Link to="/cart" className="block text-left"><BsCartFill /></Link></li>
                     </ul>
